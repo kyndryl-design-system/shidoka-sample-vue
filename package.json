@@ -1,0 +1,24 @@
+{
+  "name": "shidoka-sample-vue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@carbon/icons-vue": "^10.72.1",
+    "@kyndryl-design-system/shidoka-applications": "^1.0.0-beta.69",
+    "@kyndryl-design-system/shidoka-charts": "^1.0.0-beta.14",
+    "@kyndryl-design-system/shidoka-foundation": "^1.0.0-beta.38",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "sass": "^1.69.5",
+    "vite": "^4.4.5",
+    "vite-svg-loader": "^4.0.0"
+  }
+}
