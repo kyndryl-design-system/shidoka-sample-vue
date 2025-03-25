@@ -4,7 +4,7 @@ import '@kyndryl-design-system/shidoka-applications/components/global/header';
 import '@kyndryl-design-system/shidoka-applications/components/global/localNav';
 import '@kyndryl-design-system/shidoka-applications/components/global/footer';
 
-import UserAvatar from '@kyndryl-design-system/shidoka-icons/svg/monochrome/20/user.svg';
+import UserAvatar from '@kyndryl-design-system/shidoka-icons/svg/monochrome/16/user.svg';
 import sampleIcon from '@kyndryl-design-system/shidoka-icons/svg/monochrome/16/circle-stroke.svg';
 
 import HelloWorld from './components/HelloWorld.vue';
@@ -41,12 +41,12 @@ import HelloWorld from './components/HelloWorld.vue';
 
     <kyn-local-nav>
       <kyn-local-nav-link href="javascript:void(0)" active="">
-        <UserAvatar slot="icon" class="iconStyle"/>
+        <UserAvatar slot="icon"/>
         Link 1
       </kyn-local-nav-link>
 
       <kyn-local-nav-link href="javascript:void(0)">
-        <UserAvatar slot="icon" class="iconStyle"/>
+        <UserAvatar slot="icon"/>
         Link 2
 
         <kyn-local-nav-link slot="links" href="javascript:void(0)"> L2 Link 1 </kyn-local-nav-link>
@@ -54,7 +54,7 @@ import HelloWorld from './components/HelloWorld.vue';
       </kyn-local-nav-link>
 
       <kyn-local-nav-link href="javascript:void(0)" expanded="">
-        <UserAvatar slot="icon" class="iconStyle" />
+        <UserAvatar slot="icon"/>
         Link 3
 
         <kyn-local-nav-link slot="links" href="javascript:void(0)">
@@ -79,10 +79,3 @@ import HelloWorld from './components/HelloWorld.vue';
     </kyn-footer>
   </kyn-ui-shell>
 </template>
-
-<style>
-  .iconStyle {
-    width: 20px;
-    height: 20px;
-}
-</style>
