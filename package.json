@@ -9,16 +9,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@kyndryl-design-system/shidoka-applications": "^2.20.0",
-    "@kyndryl-design-system/shidoka-charts": "^2.0.2",
-    "@kyndryl-design-system/shidoka-foundation": "^2.4.3",
-    "@kyndryl-design-system/shidoka-icons": "^2.4.0",
+    "@kyndryl-design-system/shidoka-applications": "^2.109.6",
+    "@kyndryl-design-system/shidoka-charts": "^2.8.4",
+    "@kyndryl-design-system/shidoka-foundation": "^2.8.3",
+    "@kyndryl-design-system/shidoka-icons": "^2.16.0",
     "vue": "^3.3.4"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.2.3",
+    "@vitejs/plugin-vue": "^5.2.4",
     "sass": "^1.69.5",
-    "vite": "^4.4.5",
+    "vite": "^6.4.3",
     "vite-svg-loader": "^4.0.0"
   }
 }
